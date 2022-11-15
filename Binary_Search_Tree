@@ -1,0 +1,28 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+İlk eleman 7 root'dur.
+İkinci eleman 5 root'dan küçük olduğu için sol tarafına alt dal şeklinde yazılır.
+Üçüncü eleman 1 hem root'dan hem de ikinci eleman 5'den küçük olduğu için onun sol alt dalına yazılır.
+Dördüncü eleman 8 root'dan büyük olduğu için sağ alt dalı olarak yazılır.
+Beşinci eleman 3 root'dan küçük, ikinci eleman olan 5den de küçük olup 1 elemanından büyük olduğu için 1 elemanının sağ alt dalına yazılır.
+Altıncı eleman 0 tüm değerlerden küçük olduğu için 1 elemanının sol alt dalına yazılır.
+Yedinci eleman 9 tüm değerlerden büyük olduğu için rootun sağ tarafına, 8in sağ alt dalına yazılır.
+Sekizinci eleman ise roottan küçük olduğu için sol dalları takip edip 3ün sağ alt dalına yazılır.
+Dokuzuncu eleman roottan küçüktür bu yüzden sol dalları takip eder ve 3ün sol alt dalına yazılır.
+
+
+                 7
+               /  \
+             5      8
+           /  \      \
+         1     6      9
+       /   \
+     0      3
+           / \
+         2    4
+
+
+
+www.patika.dev 
